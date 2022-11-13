@@ -1,0 +1,80 @@
+body {
+    background-color: #dedede;
+    color: #0f0f0f;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.social-media-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 10vh;
+    padding-left: 2vw;
+}
+
+.icon {
+    color: #0f0f0f;
+    height: 4vh;
+    padding: 0 0.5vw;
+}
+
+.image {
+    height: 60vh;
+    object-fit: cover;
+    padding: 0 1vw;
+}
+
+.description {
+    padding: 1vh 4vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-size: 4vh;
+    font-weight: 700;
+    margin: 0;
+    padding: 1vh 0;
+}
+
+.about {
+    font-size: 2vh;
+    margin: 0;
+    width: 30vw;
+}
+
+.name {
+    font-size: 5vh;
+    color: #e57100;
+    margin: 0;
+}
+
+.text {
+    color: #e57100;
+    margin: 0;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .content {
+        flex-direction: column-reverse;
+    }
+
+    .about {
+        width: 80vw;
+    }
+}
+
